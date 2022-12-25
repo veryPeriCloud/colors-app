@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.body {
+
+  font-family: 'Roboto', serif;
+}
+
+.colors__container {
+  display: flex;
+  height: 100vh;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  background-color: pink;
+}
+
+.title {
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  transition: background .3s ease-in-out;
+}
+
+.title:hover {
+  background: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  transition: background .3s ease-in-out;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
